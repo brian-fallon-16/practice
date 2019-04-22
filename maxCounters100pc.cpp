@@ -21,7 +21,6 @@ vector<int> solution(int N, vector<int> &A)
         {
             counters[command-1] = max(counters[command-1], currentMax);
             counters[command-1] += 1;
-
             maxElement = max(counters[command-1], maxElement);
         }
     }
